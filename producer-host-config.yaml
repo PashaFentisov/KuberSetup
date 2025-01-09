@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: producer-host-config
+data:
+  producer-host: "producer-service"
+  
